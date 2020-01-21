@@ -46,6 +46,6 @@ RUN git clone -b sgx_2.5 --depth 1 https://github.com/intel/linux-sgx && \
 # For debug purposes
 # COPY docker/jhi.conf /etc/jhi/jhi.conf
 COPY configure.gmp ./
-RUN cd scripts; ./build.py
+#RUN cd scripts; ./build.py
 
 
